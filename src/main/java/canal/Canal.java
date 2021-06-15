@@ -13,6 +13,7 @@ public class Canal extends AggregateEvent<CanalId> {
     protected Telefono telefono;
     public Canal(CanalId entityId, Nombre nombre, Certificado certificado, Telefono telefono) {
         super(entityId);
+        //Evento de dominio
         appendChange(new CanalCreado(nombre,certificado,telefono)).apply();
     }
 }
