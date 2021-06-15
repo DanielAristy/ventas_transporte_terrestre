@@ -1,4 +1,6 @@
 package canal.values;
 
-public class CanalId {
+import co.com.sofka.domain.generic.Identity;
+
+public class CanalId extends Identity {
 }

@@ -1,4 +1,10 @@
 package canal.values;
 
-public class Usuario {
+import co.com.sofka.domain.generic.ValueObject;
+
+public class Usuario implements ValueObject<String> {
+    @Override
+    public String value() {
+        return null;
+    }
 }

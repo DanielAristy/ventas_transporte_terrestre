@@ -1,4 +1,6 @@
 package canal.values;
 
-public class EmpleadoId {
+import co.com.sofka.domain.generic.Identity;
+
+public class EmpleadoId extends Identity {
 }
